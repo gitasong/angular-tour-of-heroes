@@ -12,7 +12,7 @@ export class Hero {
   <h2>{{hero.name}} details!</h2>
   <div>
     <label>id: </label>{{hero.id}}
-    <input [{ngModel}]="hero.name" placeholder="name">
+    <input [(ngModel)]="hero.name" placeholder="name">
   </div>
   `
 })
