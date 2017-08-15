@@ -10,8 +10,10 @@ export class Hero {
   template: `
   <h1>{{title}}</h1>
   <h2>{{hero.name}} details!</h2>
-  <div><label>id: </label>{{hero.id}}</div>
-  <input [{ngModel}]="hero.name" placeholder="name">
+  <div>
+    <label>id: </label>{{hero.id}}
+    <input [{ngModel}]="hero.name" placeholder="name">
+  </div>
   `
 })
 
